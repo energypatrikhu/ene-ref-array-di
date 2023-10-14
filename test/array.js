@@ -1,5 +1,5 @@
 var assert = require('assert'),
-	ref = require('ref-napi'),
+	ref = require('ene-ref-napi'),
 	ArrayType = require('../')(ref),
 	bindings = require('ene-node-gyp-build')(__dirname);
 
