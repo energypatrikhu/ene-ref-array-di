@@ -1,7 +1,7 @@
 var assert = require('assert'),
 	ref = require('ene-ref-napi'),
 	ArrayType = require('../')(ref),
-	bindings = require('node-gyp')(__dirname);
+	bindings = require('ene-node-gyp-build')(__dirname);
 
 describe('Array', function () {
 	afterEach(gc);
