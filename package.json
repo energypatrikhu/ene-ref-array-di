@@ -17,9 +17,9 @@
 		"node-addon-api": "^7.0.0"
 	},
 	"devDependencies": {
-		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
 		"ene-ref-napi": "github:energypatrikhu/ene-ref-napi",
 		"mocha": "^7.1.1",
+		"node-gyp": "^9.4.0",
 		"nyc": "^15.0.0"
 	}
 }
