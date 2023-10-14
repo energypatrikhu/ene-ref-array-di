@@ -5,7 +5,7 @@
 		"array",
 		"ref"
 	],
-	"version": "1.2.2.1",
+	"version": "0.0.1",
 	"main": "./lib/array.js",
 	"license": "MIT",
 	"scripts": {
