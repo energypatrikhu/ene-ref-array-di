@@ -1,0 +1,25 @@
+{
+	"name": "ene-ref-array-di",
+	"description": "Create C \"array\" instances on top of Buffers",
+	"keywords": [
+		"array",
+		"ref"
+	],
+	"version": "1.2.2.1",
+	"main": "./lib/array.js",
+	"license": "MIT",
+	"scripts": {
+		"test": "node-gyp rebuild --directory test && nyc mocha --expose-gc --reporter spec"
+	},
+	"dependencies": {
+		"array-index": "^1.0.0",
+		"debug": "^4.3.1"
+	},
+	"devDependencies": {
+		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
+		"mocha": "^7.1.1",
+		"node-addon-api": "^3.0.0",
+		"nyc": "^15.0.0",
+		"ref-napi": "^3.0.2"
+	}
+}
